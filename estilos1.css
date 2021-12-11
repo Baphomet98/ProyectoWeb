@@ -1,0 +1,422 @@
+/* PARA CREAR MENUS --------------------------------------------------------------------*/
+/* estilos generales*/
+ nav ul{
+ 	list-style: none;
+ 	padding: 0;
+}
+nav li{
+	line-height: 4rem;
+	position: relative;
+
+	
+}
+nav ul {
+	position: absolute;
+}
+nav a{
+	
+	color: black;
+	display: block;
+	padding: 0 2.5em;
+	transition: .4s;
+	text-decoration: none;
+	font-size: 18px;
+}
+nav a:hover{
+	background: #17c0eb;/* para cambiar el color al seleccionar*/
+}
+
+/*primer nivel*/
+
+.menu1 {
+	background: #7158e2;
+	display: block;
+	width: 200%;
+	position: fixed;
+	top: -16px;
+	left: -15px;
+}
+.menu1 >li  {
+	float:left;
+}
+
+/*segundo nivel*/
+nav li li {
+	background: #7158e2;
+	max-height: 0;
+	transition: all .4s;  /* transiciones*/
+	overflow: hidden;
+	width: 124%;
+}
+nav li:hover ul >li{
+	max-height: 1000px;
+	overflow: visible;
+}
+nav > ul > li > ul{
+	top: 100%;
+}
+/* PARA CREAR MENUS TERMINA --------------------------------------------------------------------*/
+/* para crear el login respectivamente de la pagina html*/
+#log{
+	margin-top: 25px;
+	margin-left: 550px;
+	margin-right: 300px;
+	width:1100px;
+	height: auto;
+	display: inline-block;
+	color: #dcdde1;
+}
+header{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.absolute{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+video{
+	width: 100%;
+	height: 100%;
+}
+
+/*termina login */
+
+/*body*/
+body.secundarias{
+	background-color: #006266;
+}
+
+/*termin body*/
+
+/*editar letras e imagenes*/
+h1.tituloprincipal
+{
+	color:#009432;
+	text-align: center;
+	font-size: 40px;
+}
+
+p.parrafoshistoria{
+	text-align: justify;
+	font-size: 17px;
+	font-family: verdana;
+	margin-right: 8px;
+	
+}
+
+.left {
+    float: left;
+    width: 70%;
+
+}
+.right {
+    overflow: hidden;
+    width: 30%;
+}
+#parent {
+    margin: 10px;
+    width: 100%;
+}
+
+img.center {
+display: block;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#carousel img{
+	width: 50%;height:50%;
+
+}
+
+#carousel .col lg 3{ margin: 5px; padding:30px;
+
+}
+
+#btn-mas{
+    display: none;
+}
+/* para  botones flotantes*/
+.container{
+    position: fixed; /* posicion fija a la pantalla*/
+    bottom: 20px;
+    right: 20px;
+}
+.redes a, .btn-mas label{
+    display: block;         /*Mostrar en forma de pila*/
+    text-decoration: none;
+    background: #F97F51;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;                         /*Hacer la transición*/
+}
+.redes a:hover{             /*Acciones al pasar el puntero encima*/
+    background: #fff;
+    color: #cc2b2b;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{ /*Cuando esta chekeado*/
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{             /*Ajustes del boton principal*/
+    cursor: pointer;
+    background: #F97F51;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{      /*Rotar el boton principañ*/
+    transform: rotate(360deg);
+    font-size: 25px;
+}
+/*fin de botones flotantes*/
+
+/*barra de progreso*/
+.progress {
+            position: relative;
+            width: 100%;
+            height: 30px;
+            margin-bottom: 20px;
+            background-color: #e2e2e2;
+            border-radius: 40px;
+        }
+        
+        .progress p {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        
+        .progress .bar {
+            position: absolute;
+            border-radius: 40px;
+            height: 100%;
+            width: 0%;
+            background-color: #304ffe;
+        }
+        
+
+        
+        .success {
+            color: green;
+            margin-bottom: 10px;
+        }
+
+.submenu{
+	display: flex;
+}
+.submenu p{
+	margin: 3.5rem;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.submenu1{
+	display: flex;
+}
+.submenu1 p{
+	margin: 3.5rem;
+	cursor: pointer;
+	font-size: 25px;
+	color:black;
+	
+}
+.submenu2{
+	display: flex;
+}
+.submenu2 p{
+	margin: 3.5rem;
+	cursor: pointer;
+	font-size: 25px;
+	color:#ced6e0;
+	
+}
+.content{
+	margin-top: 2rem;
+}
+
+[data-content]{
+	display: none;
+}
+
+.active[data-content]{
+	display: block;
+}
+
+.Cajas_info{
+	width: 300px;
+	height: 300px;
+	background-color:#575fcf;
+	padding: 50px;
+	border: 15px solid #3c40c6;
+	font-family: lucida sans;
+	margin-left: 500px;
+	text-align: left;
+}
+.Cajas_info1{
+	width: 300px;
+	height: 300px;
+	background-color:#FEA47F;
+	padding: 50px;
+	border: 15px solid #F97F51;
+	font-family: lucida sans;
+	margin-left: 500px;
+	text-align: left;
+}
+
+.Cajas_info2{
+	width: 300px;
+	height: 300px;
+	background-color:#aaa69d;
+	padding: 50px;
+	border: 15px solid #84817a;
+	font-family: lucida sans;
+	margin-left: 500px;
+	text-align: left;
+}
+
+.Cajas_info3{
+	width: 300px;
+	height: 300px;
+	background-color:#833471;
+	padding: 50px;
+	border: 15px solid #6F1E51;
+	font-family: lucida sans;
+	margin-left: 500px;
+	text-align: left;
+	color: #f1f2f6;
+}
+
+.Cajas_info4{
+	width: 300px;
+	height: 300px;
+	background-color:#7bed9f;
+	padding: 50px;
+	border: 15px solid #2ed573;
+	font-family: lucida sans;
+	margin-left: 500px;
+	text-align: left;
+	color: black;
+}
+.left {
+    float: left;
+    width: 65%;
+}
+.right {
+    overflow: hidden;
+    width: 35%;
+    margin-right: 3em;
+
+}
+#parent {
+    margin-right: 50px;
+    width: 100%;
+}
+p.secundariop{
+	font-size: 18px;
+	font-family: lucida sans;
+	text-align: justify;
+	display: flex;	
+	color:#b2bec3;
+	margin: 15px;
+	float: left;
+	
+}
+
+p.secundariop2{
+	font-size: 18px;
+	font-family: lucida sans;
+	text-align: justify;
+	display: flex;	
+	color:#ced6e0;
+	margin: 15px;
+	float: left;
+
+	
+}
+
+p.secundariop1{
+	font-size: 18px;
+	font-family: lucida sans;
+	text-align: justify;
+	display: flex;	
+	color:#1B1464;
+	margin: 15px;
+	float: left;
+	
+}
+
+#fondo{
+	background-color: #3d3d3d;
+}
+#fondo1{
+	background-color: #b33939;
+}
+
+.right img{
+	margin-top: 8em;
+	margin-right: 3em;
+}
+#fondo2
+{
+	background-color: #BDC581;
+}
+
+#fondo3{
+	background-color: #2f3542;
+}
+
+/*para hacer zoom */
+
+.zoom-img {
+  width: 500px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.zoom-img > img {  
+  object-fit: cover;
+	width: 100%;
+	height: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.zoom-img:hover > img {
+  transform: scale(1.2);
+}
+/*final del zoom*/
+
+/* boton personalizado*/
+
+#boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #e60b0b;
+    background-color: black;
+    border-radius: 6px;
+    border: 2.5px solid #f39c12;
+  }
+#boton_personalizado:hover{
+    color:black;
+    background-color: #e60b0b;
+  }
+ /*fin de boton*/

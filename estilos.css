@@ -1,0 +1,286 @@
+h2.Principalh2{
+	font-style: normal;
+	font-family: "Treuchet MS",Verdana,Arial.Helvetica,sans-serif;
+	font-size: 40px;
+	color: #6ab04c;
+	text-align: center;
+}
+
+.mapa{
+	margin-left: 300px;
+}
+h4.Principalh4{
+	font-style: normal;
+	font-family: "Treuchet MS",Verdana,Arial.Helvetica,sans-serif;
+	color:#b8e994;
+	text-align: left;
+}
+p.Principalp{
+	font-family:Century Gothic;
+	color: #b2bec3;
+	text-align: justify;
+	font-size: 18px;
+}
+
+li.espadas{
+	font-family: Century Gothic;
+	list-style-image: url("espada.png");
+	font-size:30px;
+	color: #badc58;
+}
+li.civi{
+	font-size: Century Gothic;
+	list-style-image: url("civi.png");
+	font-size: 30px;
+}
+
+body.Principalb{
+	background: #2d3436;
+}
+
+.menu,.contenedor{
+	background: #e1b12c;
+	display: block;
+	width: 100%;
+	position:fixed;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    text-align:center;
+    padding: 16px;
+    font-size: 20px;
+    font-family: Century Gothic ;
+}
+table.Principaltable{
+	font-family: Century Gothic;
+	border: 10px;
+	border-style: dotted;
+	background: #8e44ad;
+	text-align: center;
+	border-color: #2980b9;
+}
+
+a.links{
+	color: #22a6b3;
+}
+h1.secundaria{
+	font-family: palantino;
+	color: #006266;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+h3.secundaria1{
+	color: #82589F;
+}
+
+
+p.secundariop{
+	font-size: 18px;
+	font-family: lucida sans;
+	text-align: justify;
+	display: flex;	
+	color:#b2bec3;
+	margin: 15px;
+	float: left;
+	
+}
+
+p.estiloCaja{
+	text-align: center;
+	color: #2c3e50;
+	font-size: 26px;
+	top: 30px;
+	right: 20px;
+	left:20px;
+}
+p.estiloCaja1{
+	text-align: center;
+	color: black;
+	font-size:18px;
+	top: 30px;
+	right: 20px;
+	left: 20px;
+	display: flex;
+}
+li.{
+	color: black;
+}
+mark.titulos{
+	color: #8c7ae6;
+}
+.Cajas_info{
+	width: 300px;
+	height: 300px;
+	background-color:#1abc9c;
+	position: block;
+	top: 25px;
+	left: 25px;
+	padding: 50px;
+	border: 15px solid #16a085;
+	z-index: 0;
+	font-family: lucida sans;
+	float: left;/*hace que se alinien enfre de cada uno de los cuadrados*/
+}
+.Cajas_info1{
+	width: 300px;
+	height: 300px;
+	background-color:#e67e22;
+	position: block;
+	top: 25px;
+	left: 100px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	border: 15px solid #d35400;
+	z-index: 1;
+	font-family: lucida sans;
+	float: left;/*hace que se alinien enfre de cada uno de los cuadrados*/
+}
+
+.Cajas_info2{
+	width: 300px;
+	height: 300px;
+	background-color:#e056fd;
+	position: block;
+	top: 25px;
+	left: 100px;
+	padding-top: 25px;
+	padding-left:25px;
+	padding-right: 30px;
+	border: 15px solid #be2edd;
+	text-align: center;
+	font-size: 1.5;
+	font-family: lucida sans;
+	float: left;/*hace que se alinien enfre de cada uno de los cuadrados*/
+}
+
+.Cajas_info3{
+	width: 300px;
+	height: 300px;;
+	background-color:#30336b;
+	position: block;
+	top: 25px;
+	left: 6.25ems ;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 18px;
+	border: 15px solid #130f40;
+	text-align: justify;
+	font-size: 19px;
+	font-family: lucida sans;
+	z-index: 1;
+	color: #c7ecee;
+	float: left;/*hace que se alinien enfre de cada uno de los cuadrados*/
+	
+	}
+.Cajas_info4{
+	width: 300px;
+	height: 300px;
+	background-color:#ffdd59;
+	position: block;
+	top: 24px;
+	left: 100px;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 18px;
+	border: 15px solid #ffa801;
+	text-align: center;
+	font-size: 25px;
+	font-family: lucida sans;
+	z-index: 2;
+	color: #1e272e;
+	float: left;/*hace que se alinien enfre de cada uno de los cuadrados*/
+}
+body.fondo{
+	background:#6F1E51;
+}
+.btn1{
+	top:900px;
+}
+.pie{
+	color: #A3CB38;
+}
+
+.left {
+    float: left;
+    width: 70%;
+}
+.right {
+    overflow: hidden;
+    width: 30%;
+}
+#parent {
+    margin-right: 20px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 720px){
+    #encabezado{
+        width: 100%;
+   	height: 100%;
+    }
+    #contenido{
+        width: 100%;
+   	height: 100%;
+    }
+   #Cajas_info
+   {
+   	width: 100%;
+   	height: 100%;
+   }
+   #Cajas_info1
+   {
+   	width: 100%;
+   	height: 100%;
+   }
+   #Cajas_info2
+   {
+   	width: 100%;
+   	height: 100%;
+   
+   }
+   #Cajas_info3
+   {
+   	width: 100%;
+   	height: 100%;
+   
+   }
+   #Cajas_info4
+   {
+   	width: 100%;
+   	height: 100%;
+   }
+   img{
+   	width: 100%;
+   	height:100%;
+   }
+   iframe{
+   		width: 100%;
+   		height:100%;
+   }
+}
+
+#galeria .col lg 3{ margin: 5; padding:15px;
+
+}
+
+#galeria img{ width: 100%; height: 100%;
+
+}
+
+#galeria img:hover{
+	border: 15px solid rgb(0, 0, 0);
+}
+
+#carousel img{
+	width: 400px;height:450px;
+	margin-right: 20px;
+}
+#carousel
+{
+	margin-right: 20px;
+}
+
+
